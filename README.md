@@ -1,16 +1,33 @@
-# React + Vite
+# Introduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dynamic News Web Application built with React.js. It shows the latest breaking news in various categories like business, technology, sports, entertainment, and more. It uses the NewsAPI service to fetch real-time headlines and displays them in an interactive and responsive card layout.
 
-Currently, two official plugins are available:
+Each news card includes the article’s title, image, brief description, and a "Read More" link to the full story. To provide a smooth experience without errors, the application uses custom fallback images and descriptions whenever the API response is missing them. This makes the app reliable, visually consistent, and easy to use, even when data is incomplete.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The interface is styled with Bootstrap for a clean, modern look. React hooks like useState and useEffect manage state and API calls efficiently.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Running this application
 
-## Expanding the ESLint configuration
+1. Clone the repository or Download the ZIP file
+2. Navigate into the project
+3. Install dependencies: npm install
+4. Create your API key in this website: "https://newsapi.org/"
+5. Paste your API key in .env file.
+4. Start the development server: npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Images
+
+![General News](./public/Readme_img/general_news.png)
+![Business News](./public/Readme_img/business_news.png)
+![Entertainment News](./public/Readme_img/entertainment_news.png)
+![Health News](./public/Readme_img/health_news.png)
+![Science News](./public/Readme_img/science_news.png)
+![Sports News](./public/Readme_img/sports_news.png)
+![Technology News](./public/Readme_img/technology_news.png)
+
+
+## Error Handling
+
+![alt text](./public/Readme_img/error_handling.png)
